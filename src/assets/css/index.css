@@ -1,0 +1,177 @@
+@font-face {
+  font-family: 'iconfont';
+  src:url('../../../static/font/iconfont.ttf') format('truetype');
+}
+
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:18px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  color: inherit !important;
+}
+
+.small-icon{
+  font-size: 12px;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  color: #2c3e50;
+  height: 100%;
+}
+#app::before, #app::after,.main::before, .main::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+h1, h2 {
+  font-weight: normal;
+}
+a {
+  color: #42b983;
+}
+
+dl,dt,dd{
+  margin:0;
+}
+
+.main{
+  padding:20px;
+}
+
+.map{
+  width:100%;
+  height:500px;
+}
+
+.el-menu-item [class^=el-icon-]{
+  margin-right: 0;
+}
+.el-menu .iconfont{
+  font-size: 18px;
+}
+
+.aside-tree{
+  font-size: 14px;
+  color:#696969;
+}
+.aside-tree .iconfont{
+  margin-right:2px;
+}
+.tree-content{
+  max-height: 400px;
+  overflow-y: auto;
+}
+.small-node-icon{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.tree-badge{
+  color:#909399;
+}
+.tree-badge span{
+  padding-right:8px;
+}
+.icon-status{
+  display: inline-block;
+  width: 16px;
+  height: 21px;
+  vertical-align: middle;
+  background-position: left center;
+  background-repeat: no-repeat;
+  margin:-4px 3px 0 0;
+}
+.icon-vehicle1{
+  background-image: url(../../../static/img/vehicle/driving.png);
+}
+.icon-vehicle2{
+  background-image: url(../../../static/img/vehicle/stop.png);
+}
+.icon-vehicle3{
+  background-image: url(../../../static/img/vehicle/offline.png);
+}
+.icon-operate2{
+  background-image: url(../../../static/img/vehicle/repairing.png)
+}
+.icon-operate1{
+  background-image: url(../../../static/img/vehicle/normal.png)
+}
+.icon-operate3{
+  background-image: url(../../../static/img/vehicle/serviceout.png)
+}
+
+
+.horizontal-layout{
+  padding-left:120px;
+  margin-bottom:15px;
+  position: relative;
+}
+.horizontal-layout label{
+  position: absolute;
+  width: 110px;
+  margin-left: -118px;
+  text-align: right;
+  line-height: 32px;
+  font-size: 14px;
+  color: #606266;
+}
+.btn-search{
+  width: 100%;
+}
+
+.table-expand label{
+  color: #99a9bf;
+  width: 90px;
+}
+.table-expand .el-form-item{
+  width: 50%;
+  margin: 0;
+}
+.warning-row th{
+  background:#ecf5ff;
+  font-weight: 600;
+}
+
+
+.dl-horizontal {
+  line-height: 24px;
+  padding: 1em 0;
+}
+.dl-horizontal:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.dl-horizontal dt{
+  width:40%;
+  float: left;
+  color:#606366;
+  padding-right:1em;
+  box-sizing: border-box;
+  text-align: right;
+}
+.dl-horizontal dd{
+  width:60%;
+  float: left;
+  color:#303033;
+  box-sizing: border-box;
+  text-align: left;
+}
+.dl-half .dl-horizontal{
+  width: 50%;
+}
